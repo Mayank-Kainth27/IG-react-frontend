@@ -1,0 +1,5 @@
+#feed-container {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+}

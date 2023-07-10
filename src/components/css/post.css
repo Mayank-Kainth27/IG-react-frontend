@@ -1,0 +1,126 @@
+#post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 15px 0;
+}
+
+#profile-info{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#profile-info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+}
+
+#profile-info div>*{
+    margin-right: 8px;
+}
+
+#profile-info img {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+#profile-info span{
+    background-color: rgba(255,255,255);
+    height: 3px;
+    width: 3px;
+    border-radius: 1.5px;
+}
+
+#profile-info button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    justify-content: right;
+    align-items: center;
+    font-size: larger;
+}
+
+#profile-info button:hover{
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#post-image-container{
+    width: 450px;
+    height: 500px;
+    /* object-fit: contain; */
+    /* overflow:hidden; */
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.post-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+#interactive-clicks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#liked-by {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#liked-by img {
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+#description {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+#comments {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+#add-comment {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#add-comment input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+}
+
+#add-comment button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
